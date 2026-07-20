@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0e3b6;
+}
+
+slot {
+    margin: 0;
+    padding: 0;
+}
