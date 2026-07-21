@@ -1,6 +1,7 @@
 ---
 import Image from "astro/components/Image.astro";
 import page1 from "../assets/1.png";
+import page22 from "../../public/images/2.png";
 import page2 from "../assets/2.png";
 import page3 from "../assets/3.png";
 import page4 from "../assets/4.png";
@@ -13,6 +14,7 @@ import page10 from "../assets/10.png";
 import page11 from "../assets/11.png";
 import page12 from "../assets/12.png";
 import page13 from "../assets/13.png";
+
 ---
 <style>
   .container {
@@ -55,17 +57,18 @@ import page13 from "../assets/13.png";
 </script>
 
 <div class="w-4/5 mx-auto my-auto flex flex-col justify-between">
+
   <Image
-    src={page1}
-    alt="First page"
+    src={page22}
+    alt="Second page2"
     layout="full-width"
-    class="fade-element "
+    class="fade-element"
   />
   <Image
     src={page2}
     alt="Second page"
     layout="full-width"
-    class="fade-element "
+    class="fade-element"
   />
   <Image
     src={page3}
