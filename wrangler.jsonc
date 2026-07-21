@@ -1,8 +1,7 @@
 {
   "name": "morusgrapho",
   "compatibility_date": "2026-07-20",
-  "main": "src/layouts/Layout.astro",
   "assets": {
-    "directory": "src/assets"
+    "directory": "./src/assets"
   }
 }
